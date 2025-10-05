@@ -5,6 +5,7 @@ local table_concat = table.concat
 local bit_band    = bit32.band
 local bit_bxor    = bit32.bxor
 local bit_lshift  = bit32.lshift
+local bit_bor = bit32.bor
 local bit_rshift  = bit32.rshift
 local bit_lrotate = bit32.lrotate
 local u32 = function(x)
